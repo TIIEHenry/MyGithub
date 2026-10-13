@@ -1,8 +1,6 @@
 # 公开项目
 
-## 编码代理
-
-### [AgenticLoopDev](https://github.com/TIIEHenry/AgenticLoopDev)
+## [AgenticLoopDev](https://github.com/TIIEHenry/AgenticLoopDev)
 
 编码代理按仓库里写好的任务做。每个任务占一个工作区，合回去时两边没提交的修改都留着。
 
