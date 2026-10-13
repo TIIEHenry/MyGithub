@@ -1,8 +1,6 @@
 # 公开项目
 
-## TerminatorX
-
-### [TerminatorX](https://github.com/TIIEHenry/TerminatorX)
+## [TerminatorX](https://github.com/TIIEHenry/TerminatorX)
 
 一个窗口里放多个终端。标签和窗格在左侧，拖动可以重排、嵌到别的标签下，或把窗格拉成自己的标签。一个窗格可以盖住其余窗格，再退回来。终端用的是 GNOME Terminal 那套 VTE。窗口只有白色标题栏；窗格之间是一条 1px 的线，分割之后才有窗格标题栏。
 
