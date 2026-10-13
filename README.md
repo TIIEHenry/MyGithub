@@ -1,5 +1,11 @@
 # 公开项目
 
+## 编码代理
+
+### [AgenticLoopDev](https://github.com/TIIEHenry/AgenticLoopDev)
+
+编码代理按仓库里写好的任务做。每个任务占一个工作区，合回去时两边没提交的修改都留着。
+
 ## [TerminatorX](https://github.com/TIIEHenry/TerminatorX)
 
 一个窗口里放多个终端。标签和窗格在左侧，拖动可以重排、嵌到别的标签下，或把窗格拉成自己的标签。一个窗格可以盖住其余窗格，再退回来。终端用的是 GNOME Terminal 那套 VTE。窗口只有白色标题栏；窗格之间是一条 1px 的线，分割之后才有窗格标题栏。
@@ -34,12 +40,6 @@ Clash Meta 的 Android 客户端。哪些应用走代理，可以存成几份策
 ### [Android-Interface-IPC](https://github.com/TIIEHenry/Android-Interface-IPC)
 
 跨进程调用写成普通的 Java 接口，不用 AIDL 文件。
-
-## 编码代理
-
-### [AgenticLoopDev](https://github.com/TIIEHenry/AgenticLoopDev)
-
-编码代理按仓库里写好的任务做。每个任务占一个工作区，合回去时两边没提交的修改都留着。
 
 ## 桌面
 
