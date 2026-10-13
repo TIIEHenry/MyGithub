@@ -2,29 +2,25 @@
 
 ## 桌面
 
-GNOME 顶栏上的四个扩展。
+这四项挂在同一条面板上，一起开。
 
 ### [Gnome-AppIndicatorChip](https://github.com/TIIEHenry/Gnome-AppIndicatorChip)
 
-在 AppIndicator 托盘上加一层收纳。不常用的图标进弹出面板，按四列排齐。收纳入口不是箭头，而是一块固定宽度的 CPU / 内存读数，例如 `12 U 76 M`，数字变了面板也不跟着抖。右键这块读数可以决定每个图标留在顶栏还是收进去，并调整顺序。
+托盘入口是一块固定宽度的 CPU / 内存读数，例如 `14 U 33 M`，数字变了旁边的图标也不跟着挪。点开是收纳面板：图标按网格排，底下是「管理托盘图标...」。钉住的图标留在读数旁边，其余收进这个面板。管理页里可以改每个图标是留在面板上还是收进去，并调整顺序。
 
-需要 GNOME Shell 42。和 Top Bar Organizer 不要一起开，两套都会改同一条顶栏。
+<img src="shots/appindicator/chip.png" alt="面板上的 14 U 33 M，以及打开的托盘收纳" width="480">
 
 ### [Gnome-TopBarOrganizer](https://github.com/TIIEHenry/Gnome-TopBarOrganizer)
 
-上游用托盘的 id 记住图标属于哪个应用。有的库用进程号当 id，应用每启动一次就多一条，设置页会堆到上千条。这里在 id 里带长数字时改用标题来认应用，保存顺序时清掉已经不在顶栏上的旧记录，并把同一次启动里的 XEmbed 和 SNI 记成同一个应用。
-
-需要 GNOME Shell 42 / 43 / 44。已有的排序设置沿用。
+上游用托盘的 id 记住图标属于哪个应用。有的库用进程号当 id，应用每启动一次就多一条，设置页会堆到上千条。这里在 id 里带长数字时改用标题来认应用，保存顺序时清掉已经不在面板上的旧记录，并把同一次启动里的 XEmbed 和 SNI 记成同一个应用。面板上的左右顺序和芯片的收纳一起用。
 
 ### [Gnome-NetSpeed](https://github.com/TIIEHenry/Gnome-NetSpeed)
 
-上游的网速文字一变长，整条顶栏就左右挪。这里把文字放进固定宽度的槽，槽外的图标不再被推开。宽度、对齐、单位后缀和刷新间隔都可以改，改完立刻生效。
-
-需要 GNOME Shell 42。装上后关掉上游的网速扩展，否则顶栏上会有两个。
+网速文字一变长，整条面板就会左右挪。这里把文字放进固定宽度的槽，槽外的图标不再被推开。宽度、对齐、单位后缀和刷新间隔都可以改，改完立刻生效。它和芯片、托盘图标排在同一条面板上。
 
 ### [gnome-nvidia-extension](https://github.com/TIIEHenry/gnome-nvidia-extension)
 
-顶栏上显示 NVIDIA GPU 的读数，数据来自 `nvidia-smi`，也可以用 `nvidia-settings`。默认不在顶栏放测量项，从下拉菜单里勾选。这条 `legacy` 分支给旧版 GNOME Shell 用，并修了多卡时的解析错误。
+面板上显示 NVIDIA GPU 的读数，数据来自 `nvidia-smi`，也可以用 `nvidia-settings`。要显示哪些项从下拉菜单里勾选。这条 `legacy` 分支给旧版 GNOME Shell 用，并修了多卡时的解析错误。和上面几项一起挂在面板上。
 
 <img src="shots/nvidia/panel.png" alt="顶栏上的 NVIDIA 读数" width="480">
 
