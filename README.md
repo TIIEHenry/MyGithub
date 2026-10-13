@@ -22,7 +22,7 @@
 
 面板上显示 NVIDIA GPU 的读数，数据来自 `nvidia-smi`，也可以用 `nvidia-settings`。要显示哪些项从下拉菜单里勾选。这条 `legacy` 分支给旧版 GNOME Shell 用，并修了多卡时的解析错误。和上面几项一起挂在面板上。
 
-<img src="shots/nvidia/panel.png" alt="顶栏上的 NVIDIA 读数" width="480">
+<img src="shots/nvidia/panel.png" alt="面板上的 NVIDIA 读数" width="480">
 
 ## 终端
 
